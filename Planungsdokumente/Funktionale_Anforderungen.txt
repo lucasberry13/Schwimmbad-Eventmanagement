@@ -1,0 +1,5 @@
+1. Event anlegen: Benutzer können neue Events erstellen, indem sie Titel, Datum und Details angeben. (8 Stunden)
+2. Teilnehmer verwalten: Teilnehmer können für ein Event registriert oder entfernt werden. (10 Stunden)
+3. Eventliste anzeigen: Alle geplanten Events werden mit Details aufgelistet. (6 Stunden)
+4. Teilnehmerliste anzeigen: Teilnehmer eines bestimmten Events werden angezeigt. (5 Stunden)
+5. Daten speichern und laden: Alle Daten werden in einer Datei gespeichert und können bei Neustart geladen werden. (8 Stunden)
