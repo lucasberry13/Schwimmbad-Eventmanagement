@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchwimmbadEventPlaner", "SchwimmbadEventPlaner\SchwimmbadEventPlaner.csproj", "{BDF6E0F1-FE91-480E-8BC0-EBA2697D2892}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDF6E0F1-FE91-480E-8BC0-EBA2697D2892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDF6E0F1-FE91-480E-8BC0-EBA2697D2892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDF6E0F1-FE91-480E-8BC0-EBA2697D2892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDF6E0F1-FE91-480E-8BC0-EBA2697D2892}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7FC0A053-7F04-4CE4-942C-42D512710230}
+	EndGlobalSection
+EndGlobal
