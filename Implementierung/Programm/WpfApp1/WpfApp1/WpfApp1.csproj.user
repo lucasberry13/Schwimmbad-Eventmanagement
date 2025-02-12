@@ -7,9 +7,6 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="EventAnz.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="EventNeu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

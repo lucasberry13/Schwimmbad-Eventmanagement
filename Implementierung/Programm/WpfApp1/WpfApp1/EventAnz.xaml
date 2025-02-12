@@ -12,12 +12,14 @@
           AutoGenerateColumns="False"
           Height="150"
           CanUserAddRows="False"
+            VerticalAlignment="Top"
           >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="ID" Binding="{Binding EventID}" />
+                <DataGridTextColumn Header="ID" Binding="{Binding EventId}" />
                 <DataGridTextColumn Header="Titel"  Binding="{Binding Titel}" />
                 <DataGridTextColumn Header="Datum"  Binding="{Binding Datum}" />
                 <DataGridTextColumn Header="Details"  Binding="{Binding Details}" />
+                <DataGridTextColumn Header="Teilnehmer"  Binding="{Binding Name}" />
             </DataGrid.Columns>
         </DataGrid>
 

@@ -37,7 +37,7 @@ namespace WpfApp1
 
         private void BtnTeilnehmer_Click(object sender, RoutedEventArgs e)
         {
-            ContentArea = new Teilnehmer();
+            ContentArea.Content = new Teilnehmer();
         }
     }
 }
