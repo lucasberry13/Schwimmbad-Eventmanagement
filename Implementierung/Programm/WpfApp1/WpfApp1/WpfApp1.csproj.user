@@ -7,10 +7,16 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="EventDetail.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="EventNeu.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Teilnehmer.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="TeilnehmerVerwalten.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

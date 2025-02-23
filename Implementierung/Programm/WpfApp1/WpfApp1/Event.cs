@@ -1,20 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WpfApp1
 {
-    public partial class Event
+    public class Event
     {
-        public Event()
-        {
-            Teilnehmers = new HashSet<Teilnehmer>();
-        }
-
+        [Column("EventID")]
         public int EventId { get; set; }
-        public string Titel { get; set; } = null!;
+        public string Titel { get; set; }
         public DateTime Datum { get; set; }
-        public string? Details { get; set; }
+        public string Details { get; set; }
 
-        public virtual ICollection<Teilnehmer> Teilnehmers { get; set; }
+        public ICollection<Participant> Teilnehmers { get; set; } = new List<Participant>();
     }
 }

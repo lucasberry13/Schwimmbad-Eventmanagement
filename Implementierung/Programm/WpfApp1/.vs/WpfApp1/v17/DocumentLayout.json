@@ -1,0 +1,290 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\participant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\teilnehmer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\teilnehmer.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\teilnehmer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\teilnehmer.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventdetail.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventanz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventanz.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventanz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventanz.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\teilnehmerverwalten.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\teilnehmerverwalten.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\teilnehmerverwalten.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\teilnehmerverwalten.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventplanercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventplanercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventneu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventneu.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventneu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventneu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\eventcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|c:\\users\\user\\schwimmbad-eventmanagement\\schwimmbad-eventmanagement\\implementierung\\programm\\wpfapp1\\wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC250067-2DC2-448D-B72F-9BADEBE18FA4}|WpfApp1\\WpfApp1.csproj|solutionrelative:wpfapp1\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EventDetail.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventDetail.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EventDetail.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventDetail.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\EventDetail.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:17:03.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Event.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Event.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Event.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Event.cs",
+              "RelativeToolTip": "WpfApp1\\Event.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:20:05.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Teilnehmer.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Teilnehmer.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Teilnehmer.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Teilnehmer.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Teilnehmer.xaml.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwCQAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:49:09.903Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Participant.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Participant.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Participant.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Participant.cs",
+              "RelativeToolTip": "WpfApp1\\Participant.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:33:26.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Teilnehmer.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Teilnehmer.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Teilnehmer.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\Teilnehmer.xaml",
+              "RelativeToolTip": "WpfApp1\\Teilnehmer.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T19:38:29.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EventContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventContext.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EventContext.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventContext.cs",
+              "RelativeToolTip": "WpfApp1\\EventContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:45:39.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TeilnehmerVerwalten.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\TeilnehmerVerwalten.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\TeilnehmerVerwalten.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\TeilnehmerVerwalten.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\TeilnehmerVerwalten.xaml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAowCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-23T16:35:36.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TeilnehmerVerwalten.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\TeilnehmerVerwalten.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\TeilnehmerVerwalten.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\TeilnehmerVerwalten.xaml",
+              "RelativeToolTip": "WpfApp1\\TeilnehmerVerwalten.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-23T16:35:05.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EventDetail.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventDetail.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\EventDetail.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventDetail.xaml",
+              "RelativeToolTip": "WpfApp1\\EventDetail.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-23T16:16:22.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:00:37.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EventAnz.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventAnz.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\EventAnz.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventAnz.xaml",
+              "RelativeToolTip": "WpfApp1\\EventAnz.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:54:19.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EventAnz.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventAnz.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EventAnz.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventAnz.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\EventAnz.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAASwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T18:54:26.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EventNeu.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventNeu.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\EventNeu.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventNeu.xaml",
+              "RelativeToolTip": "WpfApp1\\EventNeu.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:43:46.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EventNeu.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventNeu.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EventNeu.xaml.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventNeu.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\EventNeu.xaml.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwFYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:45:25.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EventPlanerContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventPlanerContext.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\EventPlanerContext.cs",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\EventPlanerContext.cs",
+              "RelativeToolTip": "WpfApp1\\EventPlanerContext.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwEEAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-12T19:41:13.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\User\\Schwimmbad-Eventmanagement\\Schwimmbad-Eventmanagement\\Implementierung\\Programm\\WpfApp1\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-12T18:43:50.656Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

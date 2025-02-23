@@ -45,7 +45,7 @@ namespace WpfApp1
                     .IsUnicode(false);
             });
 
-            modelBuilder.Entity<Teilnehmer>(entity =>
+            modelBuilder.Entity<Participant>(entity =>
             {
                 entity.ToTable("Teilnehmer");
 

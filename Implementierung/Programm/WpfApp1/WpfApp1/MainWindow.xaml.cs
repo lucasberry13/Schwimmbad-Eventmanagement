@@ -25,19 +25,23 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        private void BtnEventNeu_Click(object sender, RoutedEventArgs e)
+        // Klick auf "Events anzeigen"
+        private void OpenEventAnz_Click(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new EventNeu();
+            var eventAnz = new EventAnz();
+            eventAnz.ShowDialog();
         }
 
-        private void BtnEventAnz_Click(object sender, RoutedEventArgs e)
+        // Klick auf "Neues Event anlegen"
+        private void OpenEventNeu_Click(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new EventAnz();
+            var eventNeu = new EventNeu();
+            eventNeu.ShowDialog();
         }
-
-        private void BtnTeilnehmer_Click(object sender, RoutedEventArgs e)
+        private void OpenTeilnehmerVerwaltung_Click(object sender, RoutedEventArgs e)
         {
-            ContentArea.Content = new Teilnehmer();
+            var teilnehmerVerwaltung = new TeilnehmerVerwalten();
+            teilnehmerVerwaltung.ShowDialog();
         }
     }
 }

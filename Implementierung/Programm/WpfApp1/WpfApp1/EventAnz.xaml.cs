@@ -18,11 +18,37 @@ namespace WpfApp1
     /// <summary>
     /// Interaktionslogik für EventAnz.xaml
     /// </summary>
-    public partial class EventAnz : UserControl
+    public partial class EventAnz : Window
     {
+        private readonly EventContext _context;
+
         public EventAnz()
         {
             InitializeComponent();
+            _context = new EventContext();
+            _context.Database.EnsureCreated();
+            LoadEvents();
+        }
+
+        private void LoadEvents()
+        {
+            // Lädt alle Events in die ListBox
+            EventList.ItemsSource = _context.Events.ToList();
+        }
+
+        private void EventList_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (EventList.SelectedItem is Event selectedEvent)
+            {
+                // Öffnet ein neues Detail-Fenster mit den Details des ausgewählten Events
+                var detailWindow = new EventDetail(selectedEvent.EventId);
+                detailWindow.ShowDialog();
+            }
+        }
+
+        private void Close_Click(object sender, RoutedEventArgs e)
+        {
+            Close();
         }
     }
 }

@@ -19,11 +19,11 @@ namespace WpfApp1
     /// <summary>
     /// Interaktionslogik für EventNeu.xaml
     /// </summary>
-    public partial class EventNeu : UserControl
+    public partial class EventNeu : Window
     {
 
-        private string connectionString = "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EventPlaner;Integrated Security=SSPI";
-
+        private string connectionString =
+            "Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=EventPlaner;Integrated Security=SSPI";
 
         public EventNeu()
         {
@@ -33,13 +33,19 @@ namespace WpfApp1
         private void BtnEventHinzu_Click(object sender, RoutedEventArgs e)
         {
             string titel = txtTitel.Text;
-            string datum = dpDatum.SelectedDate.HasValue ? dpDatum.SelectedDate.Value.ToString("yyyy-MM-dd") : null;
+            // Falls ein Datum gesetzt wurde, nutze es im Format yyyy-MM-dd
+            string datum = dpDatum.SelectedDate.HasValue
+                ? dpDatum.SelectedDate.Value.ToString("yyyy-MM-dd")
+                : null;
             string details = txtDetails.Text;
 
             // Prüfen, ob die Felder nicht leer sind
             if (string.IsNullOrWhiteSpace(titel) || string.IsNullOrWhiteSpace(datum))
             {
-                MessageBox.Show("Bitte Titel und Datum eingeben!", "Fehler", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Bitte Titel und Datum eingeben!",
+                                "Fehler",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Warning);
                 return;
             }
 
@@ -60,21 +66,32 @@ namespace WpfApp1
 
                         if (rowsAffected > 0)
                         {
-                            MessageBox.Show("Event erfolgreich gespeichert!", "Erfolg", MessageBoxButton.OK, MessageBoxImage.Information);
+                            MessageBox.Show("Event erfolgreich gespeichert!",
+                                            "Erfolg",
+                                            MessageBoxButton.OK,
+                                            MessageBoxImage.Information);
+
+                            // Felder zurücksetzen
                             txtTitel.Clear();
                             dpDatum.SelectedDate = null;
                             txtDetails.Clear();
                         }
                         else
                         {
-                            MessageBox.Show("Fehler beim Speichern des Events!", "Fehler", MessageBoxButton.OK, MessageBoxImage.Error);
+                            MessageBox.Show("Fehler beim Speichern des Events!",
+                                            "Fehler",
+                                            MessageBoxButton.OK,
+                                            MessageBoxImage.Error);
                         }
                     }
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Datenbankfehler: {ex.Message}", "Fehler", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show($"Datenbankfehler: {ex.Message}",
+                                "Fehler",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Error);
             }
         }
     }

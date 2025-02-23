@@ -5,26 +5,34 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="600">
+        Title="MainWindow" Height="500" Width="700" Background="#f0f0f0">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"></ColumnDefinition>
-            <ColumnDefinition Width="*"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>
-            <!--<RowDefinition Height="*"></RowDefinition>
-            <RowDefinition Height="*"></RowDefinition>-->
-        </Grid.RowDefinitions>
+        <!-- Rahmen mit abgerundeten Ecken -->
+        <Border CornerRadius="10" Background="White" Padding="10" Margin="20" BorderBrush="#007ACC" BorderThickness="1">
+            <StackPanel>
+                <TextBlock Text="Willkommen im Schwimmbad Eventmanagement"
+                           FontWeight="Bold"
+                           FontSize="18"
+                           Margin="5"
+                           HorizontalAlignment="Center"/>
 
-        <Label Grid.Row="0" Grid.ColumnSpan="2" HorizontalAlignment="Center" FontSize="25" FontWeight="Bold">Schwimmbad Eventmanagement</Label>
-        <StackPanel Grid.Column="0" Grid.Row="1">
-            <Button x:Name="BtnEventNeu" Content="Neues Event anlegen" Margin="5" Click="BtnEventNeu_Click"></Button>
-            <Button x:Name="BtnEventAnz" Content="Eventliste anzeigen" Margin="5" Click="BtnEventAnz_Click"></Button>
-            <Button x:Name="BtnTeilnehmer" Content="Teilnehmer verwalten" Margin="5" Click="BtnTeilnehmer_Click"></Button>
-        </StackPanel>
-        <ContentControl x:Name="ContentArea" Grid.Column="1" Grid.Row="1"></ContentControl>
-        
+                <TextBlock Text="Hier können Sie Events verwalten, einsehen oder neue Events anlegen."
+                           Margin="5"
+                           TextWrapping="Wrap"
+                           HorizontalAlignment="Center"/>
+
+                <!-- Buttons für Navigation zu den anderen Fenstern -->
+                <Button Content="Events anzeigen" Margin="5" Padding="10"
+                        Background="#007ACC" Foreground="White" FontWeight="Bold"
+                        Click="OpenEventAnz_Click"/>
+
+                <Button Content="Neues Event anlegen" Margin="5" Padding="10"
+                        Background="#007ACC" Foreground="White" FontWeight="Bold"
+                        Click="OpenEventNeu_Click"/>
+                <Button Content="Teilnehmer verwalten" Margin="5" Padding="10"
+                        Background="#007ACC" Foreground="White" FontWeight="Bold"
+                        Click="OpenTeilnehmerVerwaltung_Click"/>
+            </StackPanel>
+        </Border>
     </Grid>
 </Window>

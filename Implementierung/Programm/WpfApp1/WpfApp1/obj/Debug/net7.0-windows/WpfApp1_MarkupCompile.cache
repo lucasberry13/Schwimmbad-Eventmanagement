@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET7_0;NETCOREAPP
 C:\Users\User\Schwimmbad-Eventmanagement\Schwimmbad-Eventmanagement\Implementierung\Programm\WpfApp1\WpfApp1\App.xaml
-4-1737580250
+6331745095
 
-9-580760026
-220-1560128469
-EventAnz.xaml;EventNeu.xaml;MainWindow.xaml;Teilnehmer.xaml;
+12-938906976
+220652981191
+EventAnz.xaml;EventDetail.xaml;EventNeu.xaml;MainWindow.xaml;Teilnehmer.xaml;TeilnehmerVerwalten.xaml;
 
 False
 
