@@ -24,7 +24,10 @@ namespace WpfApp1
 
         public int? EventId { get; set; }
 
-        // Navigationseigenschaft
+        
         public Event Event { get; set; }
+
+        public ICollection<EventParticipant> EventParticipants { get; set; } = new List<EventParticipant>();
+
     }
 }

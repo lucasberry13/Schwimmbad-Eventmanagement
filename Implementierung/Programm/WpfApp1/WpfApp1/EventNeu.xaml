@@ -7,7 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="400" d:DesignWidth="500">
     <Grid Background="#f0f0f0">
-        <!-- Abgerundeter Rahmen mit blauen Akzenten -->
+        
         <Border CornerRadius="10" 
                 Background="White" 
                 Padding="10" 
@@ -15,27 +15,27 @@
                 BorderBrush="#007ACC" 
                 BorderThickness="1">
             <StackPanel>
-                <!-- Überschrift -->
+               
                 <TextBlock Text="Neues Event anlegen"
                            FontWeight="Bold" 
                            FontSize="18" 
                            Margin="5"/>
 
-                <!-- Titel-Eingabe -->
+                
                 <TextBlock Text="Titel:" FontWeight="Bold"/>
                 <TextBox x:Name="txtTitel"
                          Margin="5"
                          BorderBrush="#007ACC" 
                          BorderThickness="2"/>
 
-                <!-- Datum-Eingabe -->
+                
                 <TextBlock Text="Datum:" FontWeight="Bold"/>
                 <DatePicker x:Name="dpDatum"
                             Margin="5"
                             BorderBrush="#007ACC"
                             BorderThickness="2"/>
 
-                <!-- Details-Eingabe -->
+                
                 <TextBlock Text="Details:" FontWeight="Bold"/>
                 <TextBox x:Name="txtDetails"
                          Margin="5"
@@ -44,7 +44,7 @@
                          BorderBrush="#007ACC"
                          BorderThickness="2"/>
 
-                <!-- Aktionen -->
+                
                 <StackPanel Orientation="Horizontal"
                             HorizontalAlignment="Right">
                     <Button x:Name="BtnEventHinzu"

@@ -15,13 +15,12 @@ using Microsoft.EntityFrameworkCore;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaktionslogik für EventDetail.xaml
-    /// </summary>
+   
     public partial class EventDetail : Window
     {
         private readonly EventContext _context;
         private readonly int _eventId;
+        
 
         public EventDetail(int eventId)
         {
@@ -34,17 +33,28 @@ namespace WpfApp1
 
         private void LoadEventDetails()
         {
-            var selectedEvent = _context.Events
-               .Include(e => e.Teilnehmers)  // <-- So werden die zugewiesenen Teilnehmer direkt mit abgefragt
-               .FirstOrDefault(e => e.EventId == _eventId);
-
-            if (selectedEvent != null)
+            using (var db = new EventContext())
             {
-                LabelName.Text = $"Event: {selectedEvent.Titel}";
-                LabelDate.Text = $"Datum: {selectedEvent.Datum:d}";
-                LabelDescription.Text = $"Beschreibung: {selectedEvent.Details}";
-                ParticipantList.ItemsSource = selectedEvent.Teilnehmers.ToList();
+                var selectedEvent = db.Events
+                    .Include(e => e.EventParticipants)
+                        .ThenInclude(ep => ep.Participant)
+                    .FirstOrDefault(e => e.EventId == _eventId);
+
+                if (selectedEvent != null)
+                {
+                    LabelName.Text = $"Event: {selectedEvent.Titel}";
+                    LabelDate.Text = $"Datum: {selectedEvent.Datum:d}";
+                    LabelDescription.Text = $"Beschreibung: {selectedEvent.Details}";
+
+                    
+                    var participants = selectedEvent.EventParticipants
+                                                    .Select(ep => ep.Participant)
+                                                    .ToList();
+
+                    ParticipantList.ItemsSource = participants;
+                }
             }
+
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

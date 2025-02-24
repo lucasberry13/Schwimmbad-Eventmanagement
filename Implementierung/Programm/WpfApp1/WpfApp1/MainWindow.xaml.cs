@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
         public MainWindow()
@@ -25,14 +23,14 @@ namespace WpfApp1
             InitializeComponent();
         }
 
-        // Klick auf "Events anzeigen"
+        
         private void OpenEventAnz_Click(object sender, RoutedEventArgs e)
         {
             var eventAnz = new EventAnz();
             eventAnz.ShowDialog();
         }
 
-        // Klick auf "Neues Event anlegen"
+        
         private void OpenEventNeu_Click(object sender, RoutedEventArgs e)
         {
             var eventNeu = new EventNeu();
@@ -43,5 +41,12 @@ namespace WpfApp1
             var teilnehmerVerwaltung = new TeilnehmerVerwalten();
             teilnehmerVerwaltung.ShowDialog();
         }
+
+        private void BtnAssignParticipant_Click(object sender, RoutedEventArgs e)
+        {
+            TeilnehmerZuEvent assignWindow = new TeilnehmerZuEvent();
+            assignWindow.ShowDialog(); 
+        }
+
     }
 }

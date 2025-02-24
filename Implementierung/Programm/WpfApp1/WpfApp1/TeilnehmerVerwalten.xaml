@@ -15,7 +15,7 @@
                            Margin="5" 
                            HorizontalAlignment="Center"/>
 
-                <!-- Liste aller Teilnehmer -->
+                
                 <ListBox x:Name="ParticipantList" 
                          Margin="5" 
                          Height="300" 
@@ -23,7 +23,7 @@
                          BorderThickness="2" 
                          DisplayMemberPath="Name" />
 
-                <!-- Buttons unten -->
+                
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Content="Neuen Teilnehmer anlegen" 
                             Margin="5" 

@@ -14,9 +14,7 @@ using System.Windows.Shapes;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaktionslogik für TeilnehmerVerwalten.xaml
-    /// </summary>
+    
     public partial class TeilnehmerVerwalten : Window
     {
         private readonly EventContext _context;
@@ -31,7 +29,7 @@ namespace WpfApp1
 
         private void LoadParticipants()
         {
-            // Lädt alle Teilnehmer aus der DB
+           
             ParticipantList.ItemsSource = _context.Participants
                                                  .OrderBy(p => p.Name)
                                                  .ToList();
@@ -40,7 +38,6 @@ namespace WpfApp1
         private void CreateNewParticipant_Click(object sender, RoutedEventArgs e)
         {
             var neuFenster = new Teilnehmer();
-            // Nach Schließen des Fensters die Liste aktualisieren
             neuFenster.ShowDialog();
             LoadParticipants();
         }

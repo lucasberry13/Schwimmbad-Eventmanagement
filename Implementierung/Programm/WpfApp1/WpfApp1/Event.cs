@@ -13,5 +13,8 @@ namespace WpfApp1
         public string Details { get; set; }
 
         public ICollection<Participant> Teilnehmers { get; set; } = new List<Participant>();
+
+        public ICollection<EventParticipant> EventParticipants { get; set; } = new List<EventParticipant>();
+
     }
 }

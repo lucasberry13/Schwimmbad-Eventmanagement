@@ -16,9 +16,7 @@ using Microsoft.Extensions.Logging;
 
 namespace WpfApp1
 {
-    /// <summary>
-    /// Interaktionslogik für Teilnehmer.xaml
-    /// </summary>
+    
     public partial class Teilnehmer : Window
     {
         private readonly EventContext _context;
@@ -33,8 +31,7 @@ namespace WpfApp1
 
         private void LoadEvents()
         {
-            // Lädt alle verfügbaren Events, um dem Teilnehmer optional eines zuzuordnen
-            //EventComboBox.ItemsSource = _context.Events.OrderBy(e => e.Titel).ToList();
+            
             using (var db = new EventContext())
             {
                 EventComboBox.ItemsSource = db.Events.ToList();
@@ -56,7 +53,7 @@ namespace WpfApp1
                 return;
             }
 
-            // Prüfen, ob das Alter numerisch ist
+            
             if (!int.TryParse(ParticipantAge.Text, out int age))
             {
                 MessageBox.Show("Bitte geben Sie ein gültiges Alter ein.",
@@ -71,16 +68,27 @@ namespace WpfApp1
                 Name = ParticipantName.Text,
                 Email = ParticipantEmail.Text,
                 Age = age,
-                EventId = selectedEventId
+                
             };
 
-            // Optional: Ausgewähltes Event setzen
-            //if (EventComboBox.SelectedValue is int selectedEventId)
-            //{
-            //    participant.TeilnehmerId = selectedEventId;
-            //}
+            int? eventId = (int?)EventComboBox.SelectedValue;
+            if (eventId == null)
+            {
+                MessageBox.Show("Bitte ein Event auswählen!");
+                return;
+            }
+
 
             _context.Participants.Add(participant);
+            _context.SaveChanges();
+
+            var ep = new EventParticipant
+            {
+                EventId = eventId.Value,
+                TeilnehmerId = participant.TeilnehmerId 
+            };
+
+            _context.EventParticipants.Add(ep);
             _context.SaveChanges();
 
             MessageBox.Show("Teilnehmer gespeichert.",

@@ -26,14 +26,14 @@
                 <TextBox x:Name="ParticipantAge" Margin="5" 
                          BorderBrush="#007ACC" BorderThickness="2"/>
 
-                <!-- Optionale Zuordnung zu einem Event -->
+                
                 <TextBlock Text="Zu welchem Event?" FontWeight="Bold"/>
                 <ComboBox x:Name="EventComboBox" Margin="5"
                           BorderBrush="#007ACC" BorderThickness="2"
                           DisplayMemberPath="Titel" 
                           SelectedValuePath="EventId"/>
 
-                <!-- Buttons unten -->
+                
                 <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
                     <Button Content="Speichern"
                             Margin="5"

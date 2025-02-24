@@ -9,14 +9,14 @@ namespace WpfApp1
 {
     public class EventContext : DbContext
     {
-        // Hier definierst du alle Entitäten, die in der DB landen sollen
+        
         public DbSet<Event> Events { get; set; }
         public DbSet<Participant> Participants { get; set; }
+        public DbSet<EventParticipant> EventParticipants { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            // Beispiel: Anbindung an LocalDB in Visual Studio
-            // ACHTUNG: Passe die Connection an dein System an
+            
             if (!optionsBuilder.IsConfigured)
             {
                 optionsBuilder.UseSqlServer(
@@ -27,8 +27,22 @@ namespace WpfApp1
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
-            // Hier kannst du z.B. Tabellen, Indizes, Beziehungen genauer konfigurieren.
-            // modelBuilder.Entity<Event>().HasKey(e => e.Id);
+
+           
+            modelBuilder.Entity<EventParticipant>()
+                .HasKey(ep => new { ep.EventId, ep.TeilnehmerId });
+
+            
+            modelBuilder.Entity<EventParticipant>()
+                .HasOne(ep => ep.Event)
+                .WithMany(e => e.EventParticipants)
+                .HasForeignKey(ep => ep.EventId);
+
+            modelBuilder.Entity<EventParticipant>()
+                .HasOne(ep => ep.Participant)
+                .WithMany(p => p.EventParticipants)
+                .HasForeignKey(ep => ep.TeilnehmerId);
+
         }
 
         
