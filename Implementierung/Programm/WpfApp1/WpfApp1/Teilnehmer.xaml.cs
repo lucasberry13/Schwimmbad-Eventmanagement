@@ -88,8 +88,16 @@ namespace WpfApp1
                 TeilnehmerId = participant.TeilnehmerId 
             };
 
+            
+
             _context.EventParticipants.Add(ep);
             _context.SaveChanges();
+
+            var selectedEvent = (Event)EventComboBox.SelectedItem;
+
+
+            EmailService emailService = new EmailService();
+            emailService.SendConfirmationEmail(participant, selectedEvent);
 
             MessageBox.Show("Teilnehmer gespeichert.",
                             "Info",

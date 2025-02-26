@@ -45,7 +45,18 @@ namespace WpfApp1
 
         }
 
-        
+        public void RemoveParticipantFromEvent(int eventId, int participantId)
+        {
+            var eventParticipant = EventParticipants
+                .FirstOrDefault(ep => ep.EventId == eventId && ep.TeilnehmerId == participantId);
+
+            if (eventParticipant != null)
+            {
+                EventParticipants.Remove(eventParticipant);
+                SaveChanges();
+            }
+        }
+
 
 
     }

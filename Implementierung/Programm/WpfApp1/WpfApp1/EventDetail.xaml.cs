@@ -57,6 +57,29 @@ namespace WpfApp1
 
         }
 
+        private void RemoveParticipant_Click(object sender, RoutedEventArgs e)
+        {
+            if (ParticipantList.SelectedItem is Participant selectedParticipant)
+            {
+                using (var context = new EventContext())
+                {
+                    
+                    var eventId = _eventId;
+                    context.RemoveParticipantFromEvent(eventId, selectedParticipant.TeilnehmerId);
+                }
+
+                MessageBox.Show("Teilnehmer wurde entfernt.", "Erfolgreich", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                
+                LoadEventDetails();
+            }
+            else
+            {
+                MessageBox.Show("Bitte einen Teilnehmer auswählen!", "Fehler", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             Close();

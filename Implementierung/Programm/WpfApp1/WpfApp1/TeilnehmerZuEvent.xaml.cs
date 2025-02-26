@@ -73,8 +73,17 @@ namespace WpfApp1
                 TeilnehmerId = participantId.Value
             };
 
+            
+
             _context.EventParticipants.Add(ep);
             _context.SaveChanges();
+
+            var selectedParticipant = (Participant)ComboBoxParticipant.SelectedItem;
+            var selectedEvent = (Event)ComboBoxEvent.SelectedItem;
+
+            EmailService emailService = new EmailService();
+            emailService.SendConfirmationEmail(selectedParticipant, selectedEvent);
+
 
             MessageBox.Show("Teilnehmer wurde erfolgreich zugewiesen!");
             this.Close();
