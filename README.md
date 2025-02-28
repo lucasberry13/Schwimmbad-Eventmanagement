@@ -12,6 +12,7 @@ Das Projekt "Schwimmbad - Eventmanagement" ist eine Softwarelösung zur Organisa
 Die Software wurde in C# implementiert und speichert Daten in einer SQL-Datenbank.
 
 **Nutzung der Software:**
+
 Nach dem Start der Anwendung gelangt der Benutzer in das Hauptmenü. Hier stehen verschiedene Funktionen zur Verfügung:
 
 Um ein neues Event zu erstellen, klickt der Benutzer auf den Button "Neues Event anlegen". Anschließend öffnet sich ein Eingabeformular, in dem ein Titel, Datum und eine Beschreibung für das Event eingetragen werden können. Nach dem Speichern erscheint das Event in der Übersicht.
